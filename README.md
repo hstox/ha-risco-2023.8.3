@@ -52,3 +52,11 @@ The custom integration will automatically override the built-in one.
   Disable it instead to preserve all devices and entities.
 - All existing entities will continue working because the domain and unique IDs
   remain unchanged.
+
+## Changelog
+
+### v1.0.0
+- Initial release
+- Backported Risco integration from HA 2023.8.3
+- Updated pyrisco requirement to 0.6.8
+- Added version field to manifest.json
