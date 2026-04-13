@@ -4,6 +4,12 @@ This repository contains a backported version of the official Home Assistant
 **Risco** integration, based on the `2023.8.3` tag of the Home Assistant Core
 repository.
 
+## Note
+
+This custom component is intended for users who remain on HA 2023.8.3
+(32‑bit) and cannot upgrade to newer releases. It is not needed on
+modern Home Assistant versions.
+
 ## Why this exists
 
 Risco recently started blocking the default Home Assistant User-Agent string.
